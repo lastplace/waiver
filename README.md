@@ -1,4 +1,4 @@
-waiver
+# waiver
 ======
 
 This is the skate park's waiver application.
@@ -10,7 +10,9 @@ It uses:
 - [Signature Pad](https://github.com/szimek/signature_pad)
 > Removed the submit button on it in hopes that we could combine it with ours.
 
----
+======
+
+## pages
 
 **index** : Full waiver for under 18.
 

@@ -1,4 +1,4 @@
-# waiver
+waiver
 ======
 
 This is the skate park's waiver application.

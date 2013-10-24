@@ -1,7 +1,7 @@
 Waiver
 ======
 
-This is the skate park's waiver application.
+This is the skatepark's waiver application.
 
 It uses:
 

@@ -1,0 +1,661 @@
+/* line 1, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/partials/_defaults.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 7, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/partials/_defaults.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 11, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/partials/_defaults.scss */
+body {
+  font-size: 100%/1.5;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-feature-settings: "onum" 1, "kern" 1, "liga" 1;
+  -moz-font-feature-settings: "onum=1, kern=1, liga=1";
+  -ms-font-feature-settings: "onum" 1, "kern" 1, "liga" 1;
+  -o-font-feature-settings: "onum" 1, "kern" 1, "liga" 1;
+  -webkit-font-feature-settings: "onum" 1, "kern" 1, "liga" 1;
+  font-feature-settings: "onum" 1, "kern" 1, "liga" 1;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 37, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/partials/_defaults.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  outline: none;
+}
+
+/* line 46, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/partials/_defaults.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 50, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/partials/_defaults.scss */
+ul, ol, menu, dir, h1, h2, h3, h4, h5, h6, p, blockquote, b, strong, hr {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
+  -moz-padding-start: 0;
+  margin: 0;
+  border-style: none;
+}
+
+/* line 61, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/partials/_defaults.scss */
+hr {
+  border: none;
+  height: 1px;
+  width: 100%;
+  border-style: none;
+  background-color: #f0f0f0;
+}
+
+/* line 69, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/partials/_defaults.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 71, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/partials/_defaults.scss */
+.left, header hgroup, section.confirmation .checkbox, div.confirmation .checkbox, .owl-buttons .owl-prev, .owl-buttons .owl-prev:before {
+  float: left;
+}
+
+/* line 72, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/partials/_defaults.scss */
+.right, section.confirmation .highlight, div.confirmation .highlight, .owl-buttons .owl-next, .owl-buttons .owl-next:after {
+  float: right;
+}
+
+/* line 73, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/partials/_defaults.scss */
+.clear {
+  clear: both;
+}
+
+/* line 75, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/partials/_defaults.scss */
+.fadein, button, :focus {
+  -webkit-transition: all, 0.3s, ease-in-out;
+  -moz-transition: all, 0.3s, ease-in-out;
+  -o-transition: all, 0.3s, ease-in-out;
+  transition: all, 0.3s, ease-in-out;
+}
+
+/* line 79, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/partials/_defaults.scss */
+.noanim {
+  -webkit-transition: none, none, none;
+  -moz-transition: none, none, none;
+  -o-transition: none, none, none;
+  transition: none, none, none;
+}
+
+/* line 83, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/partials/_defaults.scss */
+.icon {
+  font-family: "Entypo";
+}
+
+/* line 84, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/partials/_defaults.scss */
+.icon-s {
+  font-family: "Entypo-S";
+}
+
+@font-face {
+  font-family: "Entypo";
+  src: url("../fonts/entypo.eot");
+  src: url("../fonts/entypo.eot?#iefix") format("embedded-opentype"), url("../fonts/entypo.woff") format("woff"), url("../fonts/entypo.ttf") format("truetype"), url("../fonts/entypo.svg#entypo") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Entypo-S";
+  src: url("../fonts/entypo-social.eot");
+  src: url("../fonts/entypo-social.eot?#iefix") format("embedded-opentype"), url("../fonts/entypo-social.woff") format("woff"), url("../fonts/entypo-social.ttf") format("truetype"), url("../fonts/entypo-social.svg#entypo-social") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 25, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/partials/_fonts.scss */
+i {
+  font-family: "Entypo";
+  font-style: normal;
+  font-weight: normal;
+}
+/* line 30, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/partials/_fonts.scss */
+i.social {
+  font-family: "Entypo-S";
+}
+
+/* line 28, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+.fadein, button {
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+
+/* line 31, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+.nofade {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+@-webkit-keyframes blink {
+  /* line 35, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+  to {
+    visibility: hidden;
+  }
+}
+
+@-moz-keyframes blink {
+  /* line 35, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+  to {
+    visibility: hidden;
+  }
+}
+
+@-ms-keyframes blink {
+  /* line 35, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+  to {
+    visibility: hidden;
+  }
+}
+
+@keyframes blink {
+  /* line 35, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+  to {
+    visibility: hidden;
+  }
+}
+
+/* line 38, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+.blink, body.starter nav ul li span {
+  -webkit-animation: blink 1s steps(5, start) infinite;
+  -moz-animation: blink 1s steps(5, start) infinite;
+  -ms-animation: blink 1s steps(5, start) infinite;
+  -o-animation: blink 1s steps(5, start) infinite;
+  animation: blink 1s steps(5, start) infinite;
+}
+
+/* Styles */
+/* line 48, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+html, body {
+  height: 100%;
+  font-size: 16px;
+  line-height: 34px;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 55, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+::selection {
+  background: transparent;
+}
+
+/* line 58, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+h1, h2, h3, h4, h5, h6 {
+  margin: 17px 0;
+}
+
+/* line 61, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+ol {
+  margin: 0 34px;
+}
+/* line 64, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+ol li {
+  font-size: 17px;
+  line-height: 28px;
+  margin: 27.2px 0;
+}
+
+/* line 69, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+button {
+  border: none;
+  border-radius: 3px;
+  font-weight: 700;
+}
+/* line 75, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+button:hover {
+  cursor: pointer;
+}
+/* line 78, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+button.add {
+  background: #41b971;
+  color: white;
+  font-size: 22.66667px;
+  height: 55px;
+  padding: 0 34px;
+  width: 100%;
+}
+/* line 86, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+button.add i {
+  font-size: 51px;
+  vertical-align: -5px;
+}
+/* line 90, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+button.add:hover {
+  background: #34935a;
+}
+
+/* line 93, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+body {
+  padding: 0 68px;
+}
+/* line 97, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+body.waiver *:not(i) {
+  font-family: "Helvetica Neue", "HelveticaNeue", Helvetica, sans-serif;
+}
+/* line 100, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+body.starter {
+  background: #0066ae;
+  line-height: 102px;
+  padding: 0;
+}
+/* line 106, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+body.starter nav ul {
+  list-style: none;
+}
+/* line 109, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+body.starter nav ul a {
+  display: block;
+}
+/* line 112, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+body.starter nav ul li {
+  color: white;
+  font-family: "Helvetica Neue Ultra Light", "HelveticaNeue-UltraLight", "HelveticaNeue", Helvetica, sans-serif;
+  font-size: 102px;
+  font-weight: 200;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  height: 224px;
+  padding: 59.5px 0 59.5px 68px;
+}
+/* line 122, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+body.starter nav ul li i {
+  font-size: 170px;
+  margin-right: 34px;
+  vertical-align: top;
+}
+
+/* line 130, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+header {
+  border-bottom: 2px solid #0066ae;
+  overflow: hidden;
+  padding: 34px 0 22.66667px;
+}
+/* line 135, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+header hgroup {
+  width: 55%;
+}
+/* line 139, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+header hgroup h1, header hgroup h3 {
+  margin: 0;
+}
+/* line 142, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+header hgroup h3 {
+  font-weight: 200;
+}
+/* line 145, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+header .right, header section.confirmation .highlight, section.confirmation header .highlight, header div.confirmation .highlight, div.confirmation header .highlight, header .owl-buttons .owl-next, .owl-buttons header .owl-next, header .owl-buttons .owl-next:after, .owl-buttons header .owl-next:after {
+  margin-top: 9px;
+  width: 45%;
+}
+/* line 151, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+header .right .warning h2, header section.confirmation .highlight .warning h2, section.confirmation header .highlight .warning h2, header div.confirmation .highlight .warning h2, div.confirmation header .highlight .warning h2, header .owl-buttons .owl-next .warning h2, .owl-buttons header .owl-next .warning h2, header .owl-buttons .owl-next:after .warning h2, .owl-buttons header .owl-next:after .warning h2 {
+  margin: 0;
+}
+/* line 154, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+header .right .warning h2:first-of-type, header section.confirmation .highlight .warning h2:first-of-type, section.confirmation header .highlight .warning h2:first-of-type, header div.confirmation .highlight .warning h2:first-of-type, div.confirmation header .highlight .warning h2:first-of-type, header .owl-buttons .owl-next .warning h2:first-of-type, .owl-buttons header .owl-next .warning h2:first-of-type, header .owl-buttons .owl-next:after .warning h2:first-of-type, .owl-buttons header .owl-next:after .warning h2:first-of-type {
+  font-size: 21px;
+}
+/* line 157, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+header .right .warning h2:nth-of-type(2), header section.confirmation .highlight .warning h2:nth-of-type(2), section.confirmation header .highlight .warning h2:nth-of-type(2), header div.confirmation .highlight .warning h2:nth-of-type(2), div.confirmation header .highlight .warning h2:nth-of-type(2), header .owl-buttons .owl-next .warning h2:nth-of-type(2), .owl-buttons header .owl-next .warning h2:nth-of-type(2), header .owl-buttons .owl-next:after .warning h2:nth-of-type(2), .owl-buttons header .owl-next:after .warning h2:nth-of-type(2) {
+  font-size: 15px;
+  line-height: 17px;
+  margin: -3px 0 0 69px;
+}
+/* line 162, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+header .right .warning i, header section.confirmation .highlight .warning i, section.confirmation header .highlight .warning i, header div.confirmation .highlight .warning i, div.confirmation header .highlight .warning i, header .owl-buttons .owl-next .warning i, .owl-buttons header .owl-next .warning i, header .owl-buttons .owl-next:after .warning i, .owl-buttons header .owl-next:after .warning i {
+  color: #ffb90d;
+  float: left;
+  font-size: 102px;
+  margin: 11px 8.5px 0 0;
+}
+
+/* line 168, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+label {
+  display: block;
+  font-weight: 600;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* line 177, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+section.age button, div.age button {
+  color: white;
+  font-size: 68px;
+  height: 170px;
+  margin: 8.5px 0;
+  width: 100%;
+}
+/* line 184, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+section.age button.adult, div.age button.adult {
+  background: #0066ae;
+}
+/* line 186, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+section.age button.guardian, div.age button.guardian {
+  background: #003f6c;
+}
+/* line 190, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+section.one .warning, div.one .warning {
+  border-left: 2px solid #ffb90d;
+  margin: 17px 0;
+  padding: 8.5px 17px;
+}
+/* line 195, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+section.one .warning h2, div.one .warning h2 {
+  color: #777777;
+  margin: 0;
+}
+/* line 199, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+section.one .warning h2:first-of-type, div.one .warning h2:first-of-type {
+  font-size: 21px;
+}
+/* line 202, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+section.one .warning h2:nth-of-type(2), div.one .warning h2:nth-of-type(2) {
+  font-size: 15px;
+  line-height: 17px;
+}
+/* line 207, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+section.one .warning i, div.one .warning i {
+  color: #ffb90d;
+  float: left;
+  font-size: 102px;
+  margin: 11px 8.5px 0 0;
+}
+/* line 213, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+section.one input[type="text"], div.one input[type="text"] {
+  border: none;
+  border-radius: 0px;
+  box-shadow: inset 0 -2px 0 0 #0066ae;
+  font-size: 17px;
+  font-weight: bold;
+  height: 30px;
+  padding: 0;
+  text-align: center;
+  -webkit-appearance: none;
+}
+/* line 224, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+section.one input[type="text"]::-webkit-input-placeholder, div.one input[type="text"]::-webkit-input-placeholder {
+  font-weight: normal;
+}
+/* line 227, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+section.one input[type="text"]:focus, div.one input[type="text"]:focus {
+  box-shadow: inset 0 -2px 0 0 #ffb90d;
+  outline: 0;
+}
+/* line 231, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+section.details, div.details {
+  font-size: 17px;
+  padding-top: 17px;
+}
+/* line 235, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+section.details table, div.details table {
+  border-spacing: 10px 0;
+}
+/* line 238, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+section.details table tr, div.details table tr {
+  height: 119px;
+}
+/* line 241, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+section.details input, section.details select, div.details input, div.details select {
+  font-size: 22.66667px;
+  width: 100%;
+}
+/* line 246, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+section.waiver.one, section.waiver.two, div.waiver.one, div.waiver.two {
+  padding-top: 34px;
+}
+/* line 251, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+section.waiver ol[start="3"] li:first-of-type, section.waiver ol[start="6"] li:first-of-type, div.waiver ol[start="3"] li:first-of-type, div.waiver ol[start="6"] li:first-of-type {
+  margin-top: 10px;
+}
+/* line 255, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+section.confirmation .checkbox, div.confirmation .checkbox {
+  width: 28px;
+  height: 28px;
+  background-color: #0963ae;
+  border-radius: 2px;
+  margin: 3px auto;
+  position: relative;
+  zoom: 200%;
+}
+/* line 267, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+section.confirmation .checkbox input[type="checkbox"], div.confirmation .checkbox input[type="checkbox"] {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  border: none;
+  -webkit-appearance: none;
+}
+/* line 272, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+section.confirmation .checkbox label, div.confirmation .checkbox label {
+  -webkit-appearance: none;
+  border-radius: 1px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 2px;
+  top: 2px;
+  background-color: white;
+}
+/* line 284, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+section.confirmation .checkbox label:after, div.confirmation .checkbox label:after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  opacity: 0;
+  outline: 0;
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 5px;
+  background: rgba(255, 255, 255, 0);
+  top: 6px;
+  left: 6px;
+  border: 3px solid #0963ae;
+  border-top: none;
+  border-right: none;
+}
+/* line 299, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+section.confirmation .checkbox input[type=checkbox]:checked + label:after, div.confirmation .checkbox input[type=checkbox]:checked + label:after {
+  opacity: 1;
+}
+/* line 302, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+section.confirmation .highlight, div.confirmation .highlight {
+  width: -webkit-calc(100% - 34px * 2);
+}
+
+/* line 306, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+input:not([type="checkbox"]) {
+  border: 2px solid #dddddd;
+  border-radius: 4px;
+  font-size: 17px;
+  font-weight: bold;
+  height: 55px;
+  padding: 7px;
+  text-align: center;
+  -webkit-appearance: none;
+}
+/* line 316, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+input:not([type="checkbox"])::-webkit-input-placeholder {
+  color: #dddddd;
+  font-weight: normal;
+}
+/* line 320, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+input:not([type="checkbox"]):focus {
+  border: 2px solid #ffb90d;
+  outline: 0;
+}
+
+/* line 324, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button#spin {
+  display: none;
+}
+
+/* line 328, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+input[type="checkbox"] {
+  -webkit-appearance: none;
+}
+
+/* line 331, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+.highlight {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 27.2px;
+  margin: 0;
+}
+
+/* line 341, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+.m-signature-pad {
+  position: absolute;
+  height: 250px;
+  width: 100%;
+}
+
+/* line 346, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+.m-signature-pad--body {
+  height: 80%;
+  width: 100%;
+}
+/* line 350, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+.m-signature-pad--body canvas {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+}
+
+/* line 359, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+.m-signature-pad--footer {
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+}
+/* line 364, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+.m-signature-pad--footer .description {
+  border-top: 1px solid #f4f4f4;
+  color: #666666;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: center;
+}
+/* line 371, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+.m-signature-pad--footer button {
+  background: #0066ae;
+  color: white;
+  position: absolute;
+  top: 10px;
+  z-index: 20;
+}
+/* line 378, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+.m-signature-pad--footer button.clear {
+  left: 0;
+  padding: 10px;
+}
+
+/* line 386, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+.owl-carousel {
+  padding: 17px 0;
+}
+
+/* line 389, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+.owl-wrapper-outer, .owl-wrapper, .owl-item {
+  height: 420px;
+}
+
+/* line 392, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+.owl-item {
+  padding-bottom: 20px;
+}
+
+/* line 395, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+.owl-controlls {
+  /* border-top: 1px solid #CCC */
+}
+
+/* line 399, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+.owl-buttons {
+  padding: 0 10px;
+}
+/* line 402, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+.owl-buttons > * {
+  background: #0066ae;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 28px;
+  font-weight: 200;
+  height: 55px;
+  padding: 8.5px 34px;
+  width: 429px;
+}
+/* line 414, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+.owl-buttons > *.disabled {
+  background: none;
+  box-shadow: inset 0 0 0 2px #fafafa;
+  color: #fafafa;
+  cursor: default !important;
+}
+/* line 423, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+.owl-buttons .owl-prev:not(.disabled) {
+  background: none;
+  box-shadow: inset 0 0 0 2px #eeeeee;
+  color: #cccccc;
+}
+/* line 428, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+.owl-buttons .owl-prev:before {
+  content: "\2329  ";
+  margin: 5px 17px 0 -14px;
+}
+/* line 434, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+.owl-buttons .owl-next {
+  font-weight: 500;
+  text-align: right;
+}
+/* line 439, /Users/mandy/Dropbox/Last Place/HTML/waiver/sass/style.sass */
+.owl-buttons .owl-next:after {
+  content: " \232A";
+  margin: 4px -14px 0 17px;
+}

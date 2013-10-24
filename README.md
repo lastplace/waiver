@@ -19,6 +19,6 @@ It uses:
 - Changing all references of "Partipant's" or "Parent's" to "My"
 - Remove "Have more participants at this address?" button
 
-**index-full**: 
+**index-full**: The waiver without the carousel plugin attached. Good for printouts (needs print.css) and desktop registration (from the website).
 
 **starter** : Initial page to determine age/relation of customer. Not stylistically complete.

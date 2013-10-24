@@ -10,7 +10,6 @@ It uses:
 - [Signature Pad](https://github.com/szimek/signature_pad)
 > Removed the submit button on it in hopes that we could combine it with ours.
 
-======
 
 ## Pages
 

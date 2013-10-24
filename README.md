@@ -14,7 +14,7 @@ It uses:
 
 ## Pages
 
-**index**
+### index
 
 Full waiver for under 18.
 

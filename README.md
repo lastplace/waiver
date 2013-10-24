@@ -14,20 +14,20 @@ It uses:
 
 ## Pages
 
-### index
+#### index
 
 Full waiver for under 18.
 
-**index-adult** 
+#### index-adult
 
 Full waiver for 18+. Some of the HTML on this isn't as up-to-date as **index**, but the differences include:
 - Changing all references of "Partipant's" or "Parent's" to "My"
 - Remove "Have more participants at this address?" button
 
-**index-full**
+#### index-full
 
 The waiver without the carousel plugin attached. Good for printouts (needs print.css) and online registration (from the website).
 
-**starter**
+#### starter
 
 Initial page to determine age/relation of customer. Not stylistically complete.

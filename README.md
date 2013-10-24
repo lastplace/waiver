@@ -1,4 +1,4 @@
-waiver
+Waiver
 ======
 
 This is the skate park's waiver application.
@@ -12,7 +12,7 @@ It uses:
 
 ======
 
-## pages
+## Pages
 
 **index** : Full waiver for under 18.
 

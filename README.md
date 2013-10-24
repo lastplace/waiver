@@ -7,9 +7,11 @@ It uses:
 
 [Owl Carousel](https://github.com/OwlFonk/OwlCarousel) 
 - Touch and mouse dragging are currently disabled because the signature pad on the last page doesn't play nice with it.
+- Is up-to-date with current version (although development is very active).
 
 [Signature Pad](https://github.com/szimek/signature_pad)
 - Removed the submit button on it in hopes that we could combine it with ours.
+- Has not been updated to the most recent version.
 
 
 ## Pages
